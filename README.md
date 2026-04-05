@@ -31,6 +31,7 @@ Then run:
 ./minesweeper
 
 On Windows, you need a curses-compatible environment (like PDCurses).
+If you already have PDCurses installed, you can just run the compile.bat
 
 STRUCTURE
 
