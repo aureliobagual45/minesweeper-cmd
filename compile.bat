@@ -1,0 +1,1 @@
+gcc main.c menu.c play.c -lpdcurses -o main.exe
