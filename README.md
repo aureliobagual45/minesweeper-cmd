@@ -1,20 +1,20 @@
-FEATURES
+# FEATURES
 
-Multiple difficulty levels (easy, medium, hard, expert)
-Random mine placement
-Recursive reveal of empty cells
-Flag system
-Win and lose detection
-Mouse support
-Simple menu interface
+- Multiple difficulty levels (easy, medium, hard, expert)
+- Random mine placement
+- Recursive reveal of empty cells
+- Flag system
+- Win and lose detection
+- Mouse support
+- Simple menu interface
 
-CONTROLS
+# CONTROLS
 
-Left mouse button: reveal cell
-Right mouse button: place/remove flag
-Menu navigation: arrow keys + enter
+- Left mouse button: reveal cell
+- Right mouse button: place/remove flag
+- Menu navigation: arrow keys + enter
 
-HOW TO RUN
+# HOW TO RUN
 
 Compile the project with a C compiler that supports curses.
 
@@ -27,25 +27,25 @@ Then run:
 On Windows, you need a curses-compatible environment (like PDCurses).
 If you already have PDCurses installed, you can just run the compile.bat
 
-STRUCTURE
+# STRUCTURE
 
-main.c: program entry and main loop
-menu.c: menu system and level selection
-play.c: game logic (grid, mines, input, win/lose)
-map.h: map definitions and difficulty settings
+- main.c: program entry and main loop
+- menu.c: menu system and level selection
+- play.c: game logic (grid, mines, input, win/lose)
+- map.h: map definitions and difficulty settings
 
-WHAT I LEARNED
+# WHAT I LEARNED
 
-Working with dynamic memory (2D grids)
-Handling input in terminal (including mouse)
-Structuring a game loop
-Managing state (win, lose, grid updates)
-Separating logic, interface and control flow
+- Working with dynamic memory (2D grids)
+- Handling input in terminal (including mouse)
+- Structuring a game loop
+- Managing state (win, lose, grid updates)
+- Separating logic, interface and control flow
 
-LIMITATIONS
+# LIMITATIONS
 
 This project was developed mainly for learning purposes, so there are some known limitations and simplifications:
 
-Code structure could be improved and further modularized
-Some edge cases and polish are missing
-Focus was more on implementing core mechanics than refining the overall experience
+- Code structure could be improved and further modularized
+- Some edge cases and polish are missing
+- Focus was more on implementing core mechanics than refining the overall experience
