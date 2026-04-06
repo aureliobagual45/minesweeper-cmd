@@ -1,3 +1,9 @@
+# MINESWEEPER
+
+This is a terminal version of the classic Minesweeper game made in C using curses.
+
+The game runs entirely in the console and supports mouse input for revealing cells and placing flags.
+
 # FEATURES
 
 - Multiple difficulty levels (easy, medium, hard, expert)
@@ -25,7 +31,8 @@ Then run:
 ./minesweeper
 
 On Windows, you need a curses-compatible environment (like PDCurses).
-If you already have PDCurses installed, you can just run the compile.bat
+
+If you already have PDCurses installed, you can just run the compile.bat.
 
 # STRUCTURE
 
